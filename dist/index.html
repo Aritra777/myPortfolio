@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/312464c1f3.js" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    
+    <title>Portfolio</title>
+  <link rel="stylesheet" href="/dist/assets/index.b0574b7b.css">
+</head>
+
+  <body class="box-border bg-[#030405] font-['Roboto_Serif'] text-white">
+    <nav
+      class="absolute top-0 left-0 w-full h-14 text-sm z-30 bg-transparent"
+      id="navbar"
+    >
+      <img
+        src="/assets/93366359.da369d45.png"
+        alt="Error"
+        class="h-10 w-10 absolute justify-self-start mt-1.5 mx-3 rounded-full"
+      />
+      <ul
+        class="sm:h-fit sm:pb-2 sm:flex sm:space-x-8 sm:pr-11 pt-3 sm:justify-end text-white hidden"
+        id="menuList"
+      >
+        <button class="text-right sm:hidden" id="crossBtn">
+          <i class="fa-solid fa-xmark p-2 hover:bg-white hover:text-black"></i>
+        </button>
+        <li
+          class="hover:bg-slate-400 p-2 sm:rounded-xl cursor-pointer sm:block"
+        >
+          Home
+        </li>
+        <li
+          class="hover:bg-slate-400 p-2 sm:rounded-xl cursor-pointer sm:block"
+        >
+          <a href="#Aboutme">About</a>
+        </li>
+        <li
+          class="hover:bg-slate-400 p-2 sm:rounded-xl cursor-pointer sm:block"
+        >
+          <a href="#Education">Education</a>
+        </li>
+        <li
+          class="hover:bg-slate-400 p-2 sm:rounded-xl cursor-pointer sm:block"
+        >
+          <a href="#skills">Skills</a>
+        </li>
+        <li
+          class="hover:bg-slate-400 p-2 sm:rounded-xl cursor-pointer sm:block"
+        >
+          <a href="#projects">Projects</a>
+        </li>
+      </ul>
+      <button
+        class="hover:bg-white rounded-lg my-4 float-right mr-4 px-2 cursor-pointer sm:hidden"
+        id="menuBtn"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Header Section -->
+    <div
+      class="bg-slate-900 min-h-[600px] w-full sm:bg-slate-800 text-white flex flex-col md:flex-row relative overflow-y-hidden justify-evenly bg-[url('https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-no-repeat bg-cover bg-center bg-blend-multiply"
+    >
+      <div
+        class="w-full md:w-1/2 md:min-h-full sm:min-h-1/2 sm:w-full lg:pl-24 flex justify-center items-center flex-col md:items-start sm:items-center md:pl-11 sm:px-8 space-y-2 px-8"
+      >
+        <div class="w-fit text-center text-2xl sm:text-3xl md:text-4xl">
+          <p class="font-['Pacifico']">Hi! There,</p>
+          <p class="font-['Koh_Santepheap'] uppercase py-2">
+            I'm <span class="gradient-text rounded-lg">Aritra</span>
+          </p>
+        </div>
+        <div class="w-full text-sm sm:text-sm md:text-left text-center">
+          <p class="capitalize w-fit">
+            I am a passionate Frontend developer, My designs make user
+            experience better.
+          </p>
+        </div>
+        <div
+          class="px-3 py-2 bg-gradient-to-r from-[#9e0b96] to-[#f89c0a] rounded-3xl z-20 hover:from-[#f89c0a] hover:to-[#9e0b96]"
+        >
+          <button class="border-none">Contact Me</button>
+        </div>
+      </div>
+      <div
+        class="w-full md:w-1/2 md:min-h-full sm:min-h-1/2 sm:w-full flex justify-center md:items-center md:justify-end sm:items-start sm:justify-center lg:pr-16 md:pr-11"
+      >
+        <div
+          class="fancy_div order-1 w-64 h-52 lg:w-[27em] md:w-[20rem] lg:h-[25em] md:h-[18rem] sm:w-[18em] sm:h-[15em] bg-slate-300 relative overflow-y-hidden mb-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+        >
+          <img
+            src="/assets/93366359.da369d45.png"
+            alt="error"
+            class="absolute top-4 left-0"
+            onmouseover="mouseOn(this)"
+            onmouseout="mouseOff(this)"
+          />
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        class="absolute bottom-0 left-0 lg:bottom-[-3rem]"
+      >
+        <path
+          fill="#030405"
+          fill-opacity="1"
+          d="M0,160L48,160C96,160,192,160,288,181.3C384,203,480,245,576,240C672,235,768,181,864,176C960,171,1056,213,1152,224C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- Quote -->
+    <div
+      class="w-11/12 py-4 text-xs rounded-3xl bg-slate-900 mx-auto my-7 sm:text-sm"
+    >
+      <p class="text-center text-blue-500 sm:text-sm italic">
+        "I Just Want To Make Beautiful Things, Even If Nobody Cares"
+      </p>
+      <p
+        class="w-9/12 mx-auto text-right text-blue-500 px-2 lg:w-5/12 md:w-4/5 italic"
+      >
+        ~ SAUL BASS
+      </p>
+    </div>
+
+    <!-- About me -->
+    <div
+      class="relative flex max-w-[90%] h-fit mx-auto flex-col shadow-sm shadow-slate-800 my-8 rounded-xl md:flex-row overflow-hidden md:h-[550px] md:w-4/5 lg:w-3/5 lg:h-[500px]"
+      id="Aboutme"
+    >
+      <div
+        class="w-full flex justify-center py-2 md:items-center md:p-0 about-img-div"
+      >
+        <img
+          src="/assets/myImage.d340481e.jpg"
+          alt="Error"
+          class="h-40 w-40 rounded-full shadow-lg shadow-slate-800 md:w-52 md:h-52 lg:w-64 lg:h-64"
+        />
+      </div>
+      <div
+        class="w-full text-left text-xs py-3 px-2 bg-[#0f172ada] text-[#5186e2] rounded-xl md:rounded-none md:text-sm md:h-full md:flex md:justify-center md:flex-col"
+        id="aboutme_para"
+      >
+        <p class="text-sm font-bold mb-2 md:text-base">
+          A Little About Myelf :
+        </p>
+        <p>
+          Hello, I'm Aritra Biswas. As you already know from my introductory
+          page, I'm a Forntand web designer. But there is more of me to know
+          about. I'm a indian from birth. It had been my dream to design to
+          websites since I was a kid. Just kidding. Web Designing has been a
+          recent compassion of mine, but by far, it is the one I most excell at.
+          I was always pretty decent at designing things.So, now, here I am in
+          college, first year, trying to build my skills and knowledge on this
+          advanced sector. I may be still developing, but my designs are sincere
+          and authentic and are made as appealing as possible. I hope I will be
+          successful in captivating you with my projects, in near future. See
+          you until then.
+        </p>
+      </div>
+    </div>
+
+    <!-- My Journey -->
+    <h1
+      class="text-center text-3xl font-bold font-['Koh_Santepheap'] mt-6"
+      id="Education"
+    >
+      Education
+    </h1>
+    <hr class="w-[70%] my-3 mx-auto opacity-40" />
+    <div
+      class="relative flex flex-col gap-y-3 h-[500px] py-2 mb-10 space-y-4 rounded-2xl md:h-[600px] lg:h-fit md:max-w-[80%] lg:w-[65%] md:mx-auto"
+    >
+      <!--myImage-->
+      <div
+        class="relative justify-self-center w-full h-32 flex justify-center sm:h-48 lg:h-60 xl:h-64"
+      >
+        <img
+          src="/assets/93366359.da369d45.png"
+          alt="error"
+          class="w-1/3 h-full rounded-full sm:w-[35%] xl:w-1/4 shadow-md shadow-slate-800"
+        />
+        <div
+          class="w-[2px] h-56 absolute top-32 left-1/2 bg-blue-500 sm:top-full"
+        >
+          <div
+            class="w-20 lg:w-36 h-4 absolute top-20 right-0 border-b-2 border-blue-500 border-solid rounded-br-2xl"
+          ></div>
+          <div
+            class="w-20 lg:w-36 h-4 absolute top-24 left-0 border-b-2 border-blue-500 border-solid rounded-bl-2xl"
+          ></div>
+        </div>
+      </div>
+      <!--Seceondary and HS studies-->
+      <div class="h-44 flex flex-row justify-between px-2">
+        <div
+          class="w-2/5 h-36 lg:w-1/3 lg:h-fit bg-[#030405] rounded-2xl shadow-lg shadow-slate-900 font-['Roboto_Serif'] p-1 lg:p-2 text-blue-400 place-self-start z-10"
+        >
+          <p class="my_journey_innerText_heading">Secondary Studies :</p>
+          <p class="my_journey_innerText">
+            from -
+            <a
+              href="http://www.rkmasansol.org/"
+              class="cursor-pointer underline hover:text-blue-600"
+              >Asansol Ramakrishna Mission High School</a
+            >
+          </p>
+          <p class="my_journey_innerText">OVERALL GRADE : A+</p>
+          <p class="my_journey_innerText">Passing Year : 2019</p>
+        </div>
+        <div
+          class="w-2/5 h-36 lg:w-1/3 lg:h-fit bg-[#030405] rounded-2xl shadow-lg shadow-slate-900 font-['Roboto_Serif'] p-1 lg:p-2 text-blue-400 place-self-end z-10"
+        >
+          <p class="my_journey_innerText_heading">Higher Secondary Studies :</p>
+          <p class="my_journey_innerText">
+            from -
+            <a
+              href="http://asansolcollegiate.in/"
+              class="cursor-pointer underline hover:text-blue-600"
+              >Asansol Collegiate School</a
+            >
+          </p>
+          <p class="my_journey_innerText">OVERALL GRADE : A+</p>
+          <p class="my_journey_innerText">Passing Year : 2021</p>
+        </div>
+      </div>
+      <!--Current studies-->
+      <div
+        class="w-2/5 h-44 lg:w-1/3 lg:h-fit bg-[#030405] place-self-center rounded-2xl shadow-lg shadow-slate-900 p-1 lg:p-2 font-['Roboto_Serif'] text-blue-400 z-10"
+      >
+        <p class="my_journey_innerText_heading">Curently Studing :</p>
+        <p class="my_journey_innerText">
+          In -
+          <a
+            href="https://www.aecwb.edu.in/"
+            class="cursor-pointer underline hover:text-blue-600"
+            >Asansol Enginering College</a
+          >
+        </p>
+        <p class="my_journey_innerText">
+          Pursuing : B.tech in Computer Science and Engineering
+        </p>
+        <p class="my_journey_innerText">Session : 2021 - 2025</p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <h1
+      class="text-center text-3xl font-bold font-['Koh_Santepheap'] my-6"
+      id="skills"
+    >
+      Skills
+    </h1>
+    <hr class="w-[70%] my-3 mx-auto opacity-40" />
+    <div class="w-full h-[520px]">
+      <div
+        class="grid px-2 h-fit gap-y-3 w-full mx-auto my-6 md:w-[75%] md:grid-cols-2 md:gap-3 lg:w-[70%]"
+      >
+        <div class="skill_divs expand h-fit overflow-hidden">
+          <div class="flex flex-row justify-between items-center w-full px-2">
+            <p><i class="fa-solid fa-code mr-1"></i>Languages Known</p>
+            <div><i class="fa-solid fa-arrow-down arrow"></i></div>
+          </div>
+          <div class="w-full pl-6 list">
+            <ul class="space-y-3 pb-3 pr-3">
+              <li>
+                HTML
+                <div class="progress max-w-[90%]"></div>
+              </li>
+              <li>
+                CSS
+                <div class="progress max-w-[80%]"></div>
+              </li>
+              <li>
+                Javascript
+                <div class="progress max-w-[75%]"></div>
+              </li>
+              <li>
+                C++
+                <div class="progress max-w-[60%]"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill_divs expand h-14 overflow-hidden">
+          <div class="flex flex-row justify-between items-center w-full">
+            <p>
+              <i class="fa-solid fa-brackets-curly"></i>FrameWorks and Libreries
+            </p>
+            <div><i class="fa-solid fa-arrow-down arrow"></i></div>
+          </div>
+          <div class="w-full pl-6 list">
+            <ul class="space-y-3 pb-3 pr-3">
+              <li>
+                Bootstrap
+                <div class="progress"></div>
+              </li>
+              <li>
+                Tailwind
+                <div class="progress"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skill_divs expand h-14 overflow-hidden">
+          <div class="flex flex-row justify-between items-center w-full">
+            <p><i class="fa-solid fa-screwdriver-wrench"></i> Tools</p>
+            <div><i class="fa-solid fa-arrow-down arrow"></i></div>
+          </div>
+          <div class="w-full pl-6 list">
+            <ul class="space-y-3 pb-3 pr-3">
+              <li>
+                Git
+                <div class="progress"></div>
+              </li>
+              <li>
+                Github
+                <div class="progress"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <h1
+      class="text-center text-3xl font-bold font-['Koh_Santepheap'] mt-9"
+      id="projects"
+    >
+      Projects
+    </h1>
+    <hr class="w-[70%] my-3 mx-auto opacity-40" />
+    <div
+      class="w-[280px] h-[450px] mx-auto my-4 relative project_div md:w-[70%]"
+    >
+      <button
+        class="btn absolute top-1/2 right-[110%] prev-btn md:right-full z-20"
+      >
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button
+        class="btn absolute top-1/2 left-[110%] next-btn md:left-full z-20"
+      >
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      <div
+        class="project_card_container relative w-full h-full overflow-x-hidden"
+      >
+        <div class="project_card current_card">
+          <img class="project_img" src="/assets/TakeNotes.a1a0aa40.png" alt="error" />
+          <div
+            class="md:max-w-[50%] block text-left space-y-2 py-3 px-2 relative"
+          >
+            <h3 class="font-bold md:text-2xl">Take Notes</h3>
+            <div class="text-xs md:text-lg">
+              This is a simple Notes Taking website Using Vanilla Javascript
+            </div>
+            <button class="btn">
+              <a href="https://aritra777.github.io/Take-Note/">show</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img class="project_img" src="/assets/Ludo.8e8e6338.png" alt="error" />
+          <div class="md:w-[50%] block text-left space-y-2 py-3 px-2">
+            <h3 class="font-bold md:text-2xl">Ludo Game</h3>
+            <div class="text-xs md:text-lg">
+              This is a Ludo Game using Vanilla Javascript.
+            </div>
+            <button class="btn">
+              <a href="https://aritra777.github.io/Ludo/">show</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img
+            class="project_img"
+            src="/assets/booksLibrary.88c5d870.png"
+            alt="error"
+          />
+          <div class="md:w-[50%] block text-left space-y-2 py-3 px-2">
+            <h3 class="font-bold md:text-2xl">Library</h3>
+            <div class="text-xs md:text-lg">
+              This is a Books Library in witch you can add books in a list and
+              can remove it also.
+            </div>
+            <button class="btn">
+              <a href="https://aritra777.github.io/Library">show</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img class="project_img" src="/assets/Gallary.e4b6eff8.png" alt="error" />
+          <div class="md:w-[50%] block text-left space-y-2 py-3 px-2">
+            <h3 class="font-bold md:text-2xl">Image Gallery</h3>
+            <div class="text-xs md:text-lg">An image Gallery .</div>
+            <button class="btn">
+              <a href="https://aritra777.github.io/Art-Gallary/">show</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="project_card">
+          <img class="project_img" src="/assets/slider.174b8364.png" alt="error" />
+          <div class="md:w-[50%] block text-left space-y-2 py-3 px-2">
+            <h3 class="font-bold md:text-2xl">Slider</h3>
+            <div class="text-xs md:text-lg">
+              A simple image Slider using vanilla Javascript
+            </div>
+            <button class="btn">
+              <a href="https://aritra777.github.io/Slider/">show</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="w-full py-7 sticky bottom-0 left-0 text-xl md:text-2xl bg-slate-700 flex flex-row flex-wrap justify-evenly"
+      >
+        <p class="">
+          <i class="fa-solid fa-copyright text-sm mr-1"></i>Aritra Biswas
+        </p>
+        <div class="flex space-x-5">
+          <a href="https://www.instagram.com/ARITRA_BISWAS_07/"
+            ><i
+              class="fa-brands fa-instagram hover:text-red-600 hover:-translate-y-3 transition-all"
+            ></i
+          ></a>
+          <a href="https://github.com/Aritra777"
+            ><i
+              class="fa-brands fa-github hover:text-black hover:-translate-y-3 transition-all"
+            ></i
+          ></a>
+          <a href="https://www.linkedin.com/in/aritra-biswas-13718b228/"
+            ><i
+              class="fa-brands fa-linkedin hover:text-blue-600 hover:-translate-y-3 transition-all"
+            ></i
+          ></a>
+          <a href="https://discord.com/#8855"
+            ><i
+              class="fa-brands fa-twitter hover:text-blue-700 hover:-translate-y-3 transition-all"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
